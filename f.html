@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(255, 255, 255), 255),rgb(255, 255, 255)">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>Sports</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">Sports</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">NBA首週最佳球員！唐斯楊恩獲選</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="slide">勇士慘成「落水狗」　名記：過去太羞辱人</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slide">不敵法網冠軍 詹家姊妹出師不利</a>
+                </li>
+              
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 鋼鐵人 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">唐斯楊恩</div>
+            <div><img src="image/f-1.jpg" style="width:30%;"></div>
+            Towns在開季前3戰取得場均32分、13.3籃板、5助攻、3抄截、2阻攻並外帶5顆三分彈，投籃命中率（52.5%）、三分球命中率（51.7%）都破5成，僅罰球命中率63%未及生涯水準，但瑕不掩瑜，助灰狼擊敗籃網、黃蜂、熱火3連勝。<br>
+            Young則是在上週2戰取得場均38.5分、7籃板、9助攻、1.5抄截、5.5顆三分球，投籃命中率58.7%、三分球命中率55%、罰球命中率75%，率領老鷹攻破活塞主場、並在主場擊敗魔術取得開季2連勝。
+        </div>
+    </div>
+    
+    <!-- 美國隊長 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">勇士慘成「落水狗」　名記：過去太羞辱人</div>
+             金州勇士過去5年都闖進總冠軍戰，豪取3冠，即便說是稱霸世界籃壇最高殿堂也不為過，不過本季開季2戰合計狂輸47分，對手就算拉開差距仍然卯起來「往死裡打」，《ESPN》知名記者Nick Friedell就在推特上發文點出原因。
+            <div><img src="image/f-2.jpg" style="width:50%;"></div>
+           
+        　　　　　　　　　　　　    ▲勇士過去組成超強團隊，常常3節打完就大幅領先。（圖／翻攝自推特）<br>
+            「勇士目前的問題很多，而其中之一就是，過去幾年所有球隊都曾經被他們羞辱過，現在他們每場比賽都將嚐到對手復仇的怒火，我敢說所有球隊都會像快艇、雷霆一樣給勇士狠狠『招待』。」<br>Friedell在推特發文。
+            勇士「浪花兄弟」之一Klay Thompson仍在復健左膝十字韌帶撕裂傷，目前穩定的得分點僅剩一哥Stephen Curry，而這兩場開季失利他慘成對手的重點包夾對象，也使得Draymond Green的貧攻缺點暴露無遺。<BR>
+            勇士明（29日）將前往紐奧良鵜鶘主場作客進行「背靠背」賽程，面對同樣大多是以年輕球員組成的鵜鶘隊，這支全新的勇士隊將繼續低迷、亦或是觸底反彈，球迷們都相當關注。
+            </div>
+    </div>
+    
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">不敵法網冠軍 詹家姊妹出師不利</div>
+            <div><img src="image/f-3.jpg" style="width:50%;"></div>
+            台灣「詹家姊妹」詹詠然、詹皓晴今（28日）出戰女雙WTA年終總決賽，最終以2比6、7比5、6比10不敵今年法網冠軍組合Tímea Babos及Kristina Mladenovic。
+            WTA年終總決賽共分為紫、紅2組，「台捷聯軍」謝淑薇與Barbora Strycova被分在紫組，而「詹家姊妹」詹詠然與詹皓晴則在紅組。昨率先登場的「台捷聯軍」，在關鍵搶10局拿下勝利，為賽事開出紅盤，而今由「詹家姊妹」掛帥出征，對戰今年法網冠軍組合Babos與Mladenovic。
+            詹家姊妹一開始就面臨開局劣勢，詹皓晴更在接球時不慎摔倒，一度叫傷停治療後，但在盤尾互破失守下先讓出首盤。次局詹家姊妹打出神奇表現，不僅化解掉2個賽末點，並成功扳平戰局，且在接下來連保帶破，以7比5形成平手。
+            進入關鍵搶10局，雖然詹家姊妹先以3比1領先，但在對手連趕4分情況下，反倒陷入落後。雖然接下來一度扳平戰局，但最後被對手連下4城，就以2比6、7比5、6比10落敗。
+        </div>
+    </div>
+    
+    <!-- 浩克 Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">韓國瑜挨轟「滾出台灣」 謝祖武笑了</div>
+            <div><img src="image/a-4.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 雷神索爾 Page: Content  -->
+    <div id="Content5" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">被問退休政策 韓：唱歌喝酒打屁最快樂</div>
+            <div><img src="image/a-5.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+</body>
+</html>

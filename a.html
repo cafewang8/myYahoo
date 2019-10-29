@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(255, 255, 255), 255),rgb(255, 255, 255)">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>News</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">News List</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">【挺韓網軍回來了1】十大直播主攻占YouTube 韓國瑜空戰2.0曝光</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="slide">文物擺出去，升旗台蓋起來，韓國瑜想當主席啦！？</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slide">韓國瑜傾聽之旅到彰化 王惠美與蕭景田輔選立場兩樣情</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slide">韓國瑜挨轟「滾出台灣」 謝震武笑了</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="slide">被問退休政策 韓：唱歌喝酒打屁最快樂…場面超尷尬</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 鋼鐵人 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">草包俠</div>
+            <div><img src="image/a-1.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 美國隊長 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">文物擺出去，升旗台蓋起來，韓國瑜想當主席啦</div>
+            <div><img src="image/a-2.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">民心思變 瑜領風情</div>
+            <div><img src="image/a-3.png" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 浩克 Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">韓國瑜挨轟「滾出台灣」 謝祖武笑了</div>
+            <div><img src="image/a-4.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 雷神索爾 Page: Content  -->
+    <div id="Content5" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">被問退休政策 韓：唱歌喝酒打屁最快樂</div>
+            <div><img src="image/a-5.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+</body>
+</html>

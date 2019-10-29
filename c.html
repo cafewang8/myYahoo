@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(255, 255, 255), 255),rgb(255, 255, 255)">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>理財</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">投資一定有風險，基金投資有賺有賠，申購前應詳閱公開說明書。</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">無法洞察人性，使你前功盡棄？職場上，請把「做自己」留在家裡</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="slide">【達觀股市】資金挹注　台股美股同創新高</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slide">中國尋求24億美元報復制裁 華府拒絕並交付世貿仲裁</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slide">名列5大消費糾紛 購買房屋詳閱不動產說明書</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="slide">10月房市樂觀創新高　股市信心度大幅走跌</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 鋼鐵人 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">職場上，請把「做自己」留在家裡</div>
+            <div><img src="image/c-1.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 美國隊長 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">資金挹注　台股美股同創新高</div>
+            <div><img src="image/c-2.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">中國尋求24億美元報復制裁 華府拒絕並交付世貿仲裁</div>
+            <div><img src="image/C-3.png" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 浩克 Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">名列5大消費糾紛 購買房屋詳閱不動產說明書</div>
+            <div><img src="image/C-4.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 雷神索爾 Page: Content  -->
+    <div id="Content5" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">10月房市樂觀創新高　股市信心度大幅走跌</div>
+            <div><img src="image/C-5.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
